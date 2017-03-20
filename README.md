@@ -1,3 +1,5 @@
+This is a viewer for [3D composites](http://www.unfavorablesemicircle.com/wiki/3D_Composite) of videos. For an alternative viewer you could try [tomasf's 3d composite STLs](http://tomasf.se/projects/semi/stl.html?path=BREADTH_composite3D.stl).
+
 Go to [https://unfavorablesemicircle.github.io/3d-viewer/](https://unfavorablesemicircle.github.io/3d-viewer/) for the online 3d composite viewer.
 
 ## Controls ##
@@ -9,6 +11,6 @@ Go to [https://unfavorablesemicircle.github.io/3d-viewer/](https://unfavorablese
 - Z: Render image from current viewpoint
 
 ## To add new composites ##
-- Add the image to the root directory. It must be a BMP (otherwise the colors will be distorted), and the file name shouldn't have spaces.
+- Add the image file. It must be a BMP (otherwise the colors will be distorted), and the file name shouldn't have spaces.
 - Add the file name to the list in `ufsc3d.pde`, following the format of the others.
 - Images larger than 50 MB should be split into smaller files. It's also helpful to split multi-paneled images like HARVEST or GOLDEN into multiple images.
