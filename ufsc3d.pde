@@ -28,6 +28,8 @@ final String[] files = {
   "POINT.bmp"
 };
 
+final int FILE_LIST_COLUMNS = 3;
+
 final boolean LOGGING_ENABLED = false;
 
 final float PAN_STROKE = 4;
@@ -250,19 +252,19 @@ void draw() {
     for(int i = 0; i < files.length; i++) {
       String filePath = files[i];
       stroke(0);
-      rect(leftX, top, width/2, FILE_LIST_SIZE);
+      rect(leftX, top, width/FILE_LIST_COLUMNS, FILE_LIST_SIZE);
       noStroke();
       text(filePath.substring(0, filePath.length() - 4), leftX + 16, top + FILE_LIST_SIZE/2);
       
       if(mousePressed
          && mouseY > top && mouseY < top + FILE_LIST_SIZE
-         && mouseX > leftX && mouseX < leftX + width/2)
+         && mouseX > leftX && mouseX < leftX + width/FILE_LIST_COLUMNS)
         chooseFile(filePath);
       
       top += FILE_LIST_SIZE;
       if(top + FILE_LIST_SIZE > height) {
         top = FILE_LIST_SIZE * 1.5;
-        leftX += width/2;
+        leftX += width/FILE_LIST_COLUMNS;
       }
     }
   } else if (!loadingMessageDraw) {
