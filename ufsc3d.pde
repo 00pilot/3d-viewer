@@ -19,13 +19,15 @@ final String[] files = {
   "HARVEST_top-left.bmp",
   "JALVINSACH.bmp",
   "LEE.bmp",
+  "LOCK.bmp",
   "LOCUS.bmp",
   "MOTH_1.bmp",
   "MOTH_2.bmp",
   "MOTH_3.bmp",
   "MOTH_4.bmp",
   "MUL.bmp",
-  "POINT.bmp"
+  "POINT.bmp",
+  "RELOCK.bmp"
 };
 
 final int FILE_LIST_COLUMNS = 3;
