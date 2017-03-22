@@ -1,4 +1,4 @@
-This is a viewer for [3D composites](http://www.unfavorablesemicircle.com/wiki/3D_Composite) of videos. For an alternative viewer you could try [tomasf's 3d composite STLs](http://tomasf.se/projects/semi/stl.html?path=BREADTH_composite3D.stl).
+This is a viewer for [3D composites](http://www.unfavorablesemicircle.com/wiki/3D_Composite) of videos. For an alternative viewer you could try [tomasf's 3d composite STLs](http://tomasf.se/projects/semi/stl.html?path=BREADTH_composite3D.stl). [lorpus's fork](https://lorpus.github.io/sketches/ufsc3d/) has some additional composites.
 
 Go to [https://unfavorablesemicircle.github.io/3d-viewer/](https://unfavorablesemicircle.github.io/3d-viewer/) for the online 3d composite viewer.
 
