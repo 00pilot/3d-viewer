@@ -17,6 +17,7 @@ final String[] files = {
   "FOND.bmp",
   "HARVEST_bottom.bmp",
   "HARVEST_top-left.bmp",
+  "HULL_hull.bmp",
   "JALVINSACH.bmp",
   "LEE.bmp",
   "LOCK.bmp",
